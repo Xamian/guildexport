@@ -1,0 +1,30 @@
+1.05 Updated for WoW 5.4
+
+Bug: xml output is using a lot of stack to produce in a big guild, sometimes it crashes wow.
+
+Fix: removed whitespace (tabs and newlines) from output.
+
+Better fix would be to rewrite recursive routine to iterative.
+
+Even better fix would be to export as csv.
+
+
+1.04 Updated for WoW 5.0 MoP
+
+
+1.03 Added fields:
+* online
+* lastOnline
+* achievementPoints
+* achievementRank
+* status
+
+
+1.02 TOC-Bump for WoW 4.3
+
+
+1.01 Bugfixes:
+* Sometimes export-popup doesnt have room for more than a few chars.
+
+
+1.0 Initial release

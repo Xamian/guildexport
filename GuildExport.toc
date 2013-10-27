@@ -1,0 +1,14 @@
+## Interface: 50400
+## Title: GuildExport
+## Notes: Exports guild-data for web-use
+## Author: Xamian
+## Description: Exports guild-data for web-use
+## Version: 1.06
+## SavedVariables: GuildExportData
+## X-Curse-Packaged-Version: r20131020004650
+## X-Curse-Project-Name: GuildExport
+## X-Curse-Project-ID: guildexport
+## X-Curse-Repository-ID: wow/guildexport/mainline
+
+GuildExport.lua
+
