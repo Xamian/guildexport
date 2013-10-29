@@ -123,7 +123,7 @@ function GuildExport:GetCSVString()
         for i=1, count do
             name, rank, rankIndex, level, class, zone, note, officernote, online, status, classFileName, achievementPoints, achievementRank, isMobile = GetGuildRosterInfo(i);
             years, months, days, hours = GetGuildRosterLastOnline(i);
-            local t2 = {name, rank, rankIndex, level, class, zone, note, officernote, status, classFileName, achievementPoints, achievementRank, tostring(isMobile), years, months, days, hours}
+            local t2 = {name, rank, rankIndex, level, class, zone, note, officernote, status, classFileName, achievementPoints, achievementRank, tostring(isMobile), tostring(years), tostring(months), tostring(days), tostring(hours)}
             for k,v in pairs(t2) do
                 t2[k] = string.gsub(v,";",",")
             end
